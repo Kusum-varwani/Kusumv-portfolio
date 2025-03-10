@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Nav Section -->    
+    <header class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-end">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/skill.html">
+                                Skills
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/projects.html">
+                                Projects
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="resume-container">
+            <div class="about-section">
+                <h2>About Me</h2>
+                <img src="data:image/jpeg;base64,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"/>
+                <p>Hello! I'm a Frontend Developer with a strong passion for building clean, user-friendly, and
+                    interactive web applications. I have experience in a variety of technologies, including HTML, CSS,
+                    JavaScript, React. I'm constantly learning new skills and techniques to improve the user
+                    experience.</p>
+
+                <p>I specialize in creating responsive, scalable, and high-performance websites that are both functional
+                    and visually appealing. Whether it's a landing page, e-commerce site, or a complex web app, I strive
+                    to ensure users have an intuitive and smooth experience.</p>
+
+                <p>When I'm not coding, you'll find me exploring the latest trends in web development, contributing to
+                    open-source projects, or experimenting with new tools and frameworks.</p>
+
+                <h3>Technical Skills</h3>
+                <div class="skills-list">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Git</li>
+                        <li>Responsive Design</li>
+                        <li>Web Performance</li>
+                    </ul>
+                </div>
+
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+          <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
